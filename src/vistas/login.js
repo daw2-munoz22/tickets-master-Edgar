@@ -21,6 +21,5 @@ export const login =  {
       document.querySelector('main').innerHTML = panel.template
       panel.script();
     })  
-}
-
+  }
 }

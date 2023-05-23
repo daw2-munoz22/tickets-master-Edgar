@@ -8,5 +8,5 @@ import { panel } from './src/vistas/panel'
 
 document.querySelector('header').innerHTML = header.template
 header.script()
-//document.querySelector('main').innerHTML = login.template
+document.querySelector('main').innerHTML = login.template
 
