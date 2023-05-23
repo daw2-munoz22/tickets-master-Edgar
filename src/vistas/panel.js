@@ -184,5 +184,6 @@ export const panel = {
   ` ,
   script: ()=>{
     console.log('panel');
+    
   }
 }

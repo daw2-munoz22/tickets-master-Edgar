@@ -1,11 +1,13 @@
 import { login } from "./login";
+import { panel } from "./panel";
+import { registro } from "./registro";
 
 // Obtén la referencia al elemento <main>
 const main = document.querySelector('main');
 
 // Funciones para cargar las diferentes vistas en <main>
 function loadPanel() {
-  main.innerHTML = '<h1>Vista del Panel</h1>';
+  main.innerHTML = panel.template;
 }
 
 function loadLogin() {
@@ -13,7 +15,7 @@ function loadLogin() {
 }
 
 function loadRegistro() {
-  main.innerHTML = '<h1>Vista del Registro</h1>';
+  main.innerHTML = registro.template;
 }
 
 // Añade un evento 'click' a los botones del encabezado
